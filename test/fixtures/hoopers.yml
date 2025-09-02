@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  position: MyString
+  team: MyString
+  career_ppg: 1.5
+  reg_mvps: 1
+  finals_mvps: 1
+  finals_wins: 1
+
+two:
+  name: MyString
+  position: MyString
+  team: MyString
+  career_ppg: 1.5
+  reg_mvps: 1
+  finals_mvps: 1
+  finals_wins: 1

@@ -1,0 +1,2 @@
+class Hooper < ApplicationRecord
+end
