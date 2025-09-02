@@ -1,2 +1,11 @@
 <h1>Hoopers#index</h1>
+
+<ul>
+    <% @hoopers.each do |hooper|  %>
+        <li><%= hooper.name %></li>
+        <li><%= hooper.position %></li>
+        <li><%= hooper.team %></li>
+        <br>
+    <% end  %>
+</ul>
 <p>Find me in app/views/hoopers/index.html.erb</p>

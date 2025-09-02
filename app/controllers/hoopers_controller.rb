@@ -1,5 +1,6 @@
 class HoopersController < ApplicationController
   def index
+    @hoopers = Hooper.all
   end
 
   def new
