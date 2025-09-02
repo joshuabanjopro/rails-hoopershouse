@@ -1,0 +1,2 @@
+module HoopersHelper
+end
