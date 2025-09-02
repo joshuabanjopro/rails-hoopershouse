@@ -13,12 +13,12 @@ Rails.application.routes.draw do
   # root "posts#index"
   get "/hoopers", to: "hoopers#index"
 
-  get "/hoopers/new", to: "hoopers#new"
+  get "/hoopers/new", to: "hoopers#new", as: :new_hooper
   post "/hoopers", to: "hoopers#create"
 
-  get "/hoopers/:id", to: "hoopers#show"
+  get "/hoopers/:id", to: "hoopers#show", as: :hooper
 
-  get "/hoopers/:id/edit", to: "hoopers#edit"
+  get "/hoopers/:id/edit", to: "hoopers#edit", as: :edit_hooper
   patch "/hoopers/:id", to: "hoopers#update"
 
   delete "/hoopers/:id", to: "hoopers#destroy"

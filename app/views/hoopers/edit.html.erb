@@ -1,2 +1,12 @@
 <h1>Hoopers#edit</h1>
-<p>Find me in app/views/hoopers/edit.html.erb</p>
+
+<%= simple_form_for(@hooper) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :position %>
+    <%= f.input :team %>
+    <%= f.input :career_ppg %>
+    <%= f.input :reg_mvps %>
+    <%= f.input :finals_mvps %>
+    <%= f.input :finals_wins %>
+    <%= f.submit %>
+<% end %>
