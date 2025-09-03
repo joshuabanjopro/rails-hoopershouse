@@ -1,0 +1,59 @@
+header > nav {
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 55px;
+}
+
+header > nav > img {
+    width: 24px;
+    height: 24px;
+    margin: 0px 7px;
+    padding: none;
+    background: none;
+}
+
+.hooper-card {
+    display: flex;
+    color: black;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    background-color: wheat;
+    border-radius: 12px;
+}
+
+.hooper-card > img {
+    height: 50px;
+    width: 50px;
+}
+
+.hooper-card > .main-image-container {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 19px;
+}
+
+.hooper-card > .main-image-container > .main-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-container span.country {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-right: 12px;
+}
+
+.info-container h2.hooper-title {
+    margin-top: 7px;
+    margin-bottom: 17px;
+}

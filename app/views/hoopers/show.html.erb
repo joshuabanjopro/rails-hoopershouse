@@ -1,12 +1,3 @@
-<h1>Hoopers#show</h1>
+<h1>Work In Progress...</h1>
 
-<h2><%= @hooper.name %></h2>
-
-<p><%= @hooper.position %></p>
-<p><%= @hooper.team %></p>
-<p><%= @hooper.career_ppg %></p>
-<p><%= @hooper.reg_mvps %></p>
-<p><%= @hooper.finals_mvps %></p>
-<p><%= @hooper.finals_wins %></p>
-
-<p>Find me in app/views/hoopers/show.html.erb</p>
+<div id="detailed-hooper-stats" data-stats="<%= @hooper.to_json %>"></div>

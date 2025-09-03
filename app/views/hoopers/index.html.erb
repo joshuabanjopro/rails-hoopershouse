@@ -1,11 +1,2 @@
-<div id="root"></div>
+<div id="root" data-hooperscollection="<%= @hoopers.to_json %>"></div>
 
-<ul>
-    <% @hoopers.each do |hooper|  %>
-        <li><%= hooper.name %></li>
-        <li><%= hooper.position %></li>
-        <li><%= hooper.team %></li>
-        <br>
-    <% end  %>
-</ul>
-<p>Find me in app/views/hoopers/index.html.erb</p>
